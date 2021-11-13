@@ -3,5 +3,6 @@ set -e
 
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 pushd $SCRIPT_DIR/../
-    py.test tests/ --cov-report xml:cov.xml --cov package
+    mvn jacoco:prepare-agent test jacoco:report
+    mv target/site/jacoco/jacoco.xml cov.xml
 popd
