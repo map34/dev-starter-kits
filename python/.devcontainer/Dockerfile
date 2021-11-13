@@ -1,4 +1,4 @@
 FROM python:3.10.0-alpine
 WORKDIR /usr/app
 COPY . .
-RUN python setup.py install
+RUN python setup.py install && rm -rf /usr/app
