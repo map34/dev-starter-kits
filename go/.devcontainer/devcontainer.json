@@ -13,7 +13,10 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": ["golang.go"]
+	"extensions": [
+		"golang.go",
+		"tabnine.tabnine-vscode"
+	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
