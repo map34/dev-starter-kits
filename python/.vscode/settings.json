@@ -10,6 +10,5 @@
     "python.linting.pylintEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
-    "coverage-gutters.showGutterCoverage": true,
-    "python.envFile": "${workspaceFolder}/.env"
+    "coverage-gutters.showGutterCoverage": true
 }
