@@ -15,8 +15,7 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"vscjava.vscode-java-pack",
-		"ryanluker.vscode-coverage-gutters",
-		"tabnine.tabnine-vscode"
+		"ryanluker.vscode-coverage-gutters"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
