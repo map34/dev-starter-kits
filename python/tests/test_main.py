@@ -1,7 +1,7 @@
 from package import main
 import unittest
 
-class ExecuteTests(unittest.TestCase):
+class MainTests(unittest.TestCase):
 
     def setUp(self):
         super().setUp()
