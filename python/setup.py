@@ -3,7 +3,7 @@ import package as app
 
 
 setup(
-    name='pyleniumio',
+    name='devstarter-python',
     version=app.__version__,
     packages=find_packages(),
     include_package_data=True,
@@ -18,6 +18,9 @@ setup(
         "mypy==0.910",
         "flake8==4.0.1",
         "pytest-cov==3.0.0",
-        "pytest==6.2.5"
+        "pytest==6.2.5",
+        "sortedcontainers==2.4.0",
+        "types-requests==2.26.0",
+        "requests==2.26.0"
     ],
 )

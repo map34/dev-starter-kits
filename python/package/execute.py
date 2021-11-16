@@ -1,7 +1,13 @@
-from package.scripts import uploader
+from package.scripts import async_tasks
+from sortedcontainers import SortedDict
+import requests
 
 
 def main():
-    print(uploader.call_another())
+    async_tasks.main()
+    result = requests.get("https://google.com")
+    sorted_result = SortedDict(result.headers)
+    return sorted_result
 
-main()
+if __name__ == '__main__':
+    main()
