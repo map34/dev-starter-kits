@@ -17,7 +17,7 @@ const options = commandLineArgs([
 
 
 // Init Jasmine
-const jasmine = new Jasmine(null);
+const jasmine = new Jasmine();
 
 // Set location of test files
 jasmine.loadConfig({
