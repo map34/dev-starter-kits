@@ -15,20 +15,10 @@
                 "${workspaceFolder}/**/*.js"
             ],
             "runtimeExecutable": "npm",
-            "runtimeArgs": ["run", "start:dev"]
+            "runtimeArgs": ["run", "start"],
+            "env":{
+                "DEBUG": "express:*"
+            }
         },
-        {
-            "type": "pwa-node",
-            "request": "launch",
-            "name": "Nodemon Test",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ],
-            "runtimeExecutable": "npm",
-            "runtimeArgs": ["run", "test"]
-        }
     ]
 }
