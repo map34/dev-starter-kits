@@ -1,6 +1,6 @@
-gcc -o hello hello.c;
-g++ -o hellocpp hello.cpp;
-./hello;
-./hellocpp;
-rm -f ./hello;
-rm -f ./hellocpp;
+gcc -o target/hello hello.c;
+g++ -o target/hellocpp hello.cpp;
+./target/hello;
+./target/hellocpp;
+rm -f ./target/hello;
+rm -f ./target/hellocpp;
